@@ -130,7 +130,6 @@ nav {
 .hd:hover {
     cursor: pointer;
 }
-
 .circle{
     width: 40px;
     height: 40px;
@@ -139,6 +138,7 @@ nav {
     display: flex;
     align-content: center;
     align-items: center;
+    transition: 1s;
 }
 .icon{
     filter: invert(100%);
@@ -160,6 +160,10 @@ nav {
     font: 14px 'Roboto', sans-serif;
     position: relative;
 }
+#btn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    transition: .8s;
+}
 
 #btn_1 {
     color: #fff;
@@ -170,6 +174,11 @@ nav {
     box-sizing: border-box;
     font: 14px 'Roboto', sans-serif;
     position: relative;
+}
+#btn_1:hover{
+    color: #0f0f11;
+    background-color: #fff;
+    transition: 1s;
 }
 
 .sec-about-me {
@@ -232,4 +241,11 @@ nav {
 }
 .img-fluid{
     margin-top: -100px;
+}
+.footer{
+    text-decoration: underline rgb(100, 100, 224);
+    color: #b8b5b5;
+}
+.footer .pa{
+    text-decoration: underline #1b1c1e;
 }
